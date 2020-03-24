@@ -1,0 +1,26 @@
+<div class="container">
+    <button (click)="gotoAddStudent()" class="btn btn-outline-primary">Add New Student</button>
+    <div id="pointer" class="list-group"
+      *ngFor="let student of studentList; let i = index">
+         <div class="list-group-item list-group-item-action"
+              [class.selected]="student === selected"
+              (click)="onSelect(student)"
+              style="margin-top: 6px;">
+
+              <div class="row">
+                   <img [src]="student.photoUrl"
+                        style="width: 5rem; height: 5rem;" />
+                   <div class="col-md-8">
+
+                         <h3>{{ student.firstName }} {{ student.lastName }}</h3>
+                       <p> Age: {{ student.age }}</p>
+                       <span>Description: {{ student.description }}</span>
+                   </div>
+              </div>
+         </div>
+
+        <button (click)="delete(i, student.id)" class="btn btn-outline-danger btn-sm">Delete</button>
+
+    </div>
+
+</div>

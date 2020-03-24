@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "site": "dashboard-student", //change this to your own site name!
+    "public": "build",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

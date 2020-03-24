@@ -1,0 +1,41 @@
+<div class="container" *ngIf="student != null">
+    <h2>{{ student.firstName }}</h2>
+     <div>
+         <label>id:</label> {{student.id }}
+     </div>
+    <div>
+    <label>First Name: </label>
+    <input type="text"
+           [(ngModel)]="student.firstName"
+           class="form-control">
+
+        <label>Last Name: </label>
+        <input type="text"
+               [(ngModel)]="student.lastName"
+               class="form-control">
+
+        <label>Description: </label>
+        <textarea type="text"
+                  cols="4"
+               [(ngModel)]="student.description"
+                  class="form-control"></textarea>
+
+        <label>Age: </label>
+        <input type="number"
+               [(ngModel)]="student.age"
+               class="form-control">
+
+        <label>Photo Url: </label>
+        <input type="text"
+               [(ngModel)]="student.photoUrl"
+               class="form-control">
+
+    </div>
+    <div class="row" style="margin-top: 12px;">
+         <div class="col-md-6">
+              <button type="button" (click)="goBack()" class="btn btn-success">Back</button>
+             <button type="button" (click)="update(student)" class="btn btn-info">Update/Save</button>
+         </div>
+    </div>
+
+</div>
