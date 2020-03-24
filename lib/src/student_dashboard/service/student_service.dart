@@ -101,12 +101,6 @@ Future<void> deleteStudent(id) async {
 
 }
 
-
-
-
-
-
-
   Future<Student> get(String id) async =>
       (await getAll()).firstWhere((student) => student.id == id);
 

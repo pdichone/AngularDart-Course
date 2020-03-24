@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bda4fa71-d398-4f63-9238-ef1819b461b9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/student_dashboard/service/student_service.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/student_dashboard/service/student_service.dart" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,11 +20,15 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="dart" value="4" />
+          <entry key="html" value="1" />
           <entry key="md" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="Dart" value="4" />
+          <entry key="HTML" value="1" />
           <entry key="Markdown" value="1" />
         </counts>
       </usages-collector>
@@ -48,14 +52,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/app_component.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="479">
-                <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/lib/src/student_dashboard/service/student_service.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="385">
+              <caret line="127" lean-forward="true" selection-start-line="127" selection-end-line="127" />
+              <folding>
+                <element signature="e#0#22#0" expanded="true" />
+                <element signature="e#532#546#0" />
+                <element signature="e#1531#2266#0" />
+                <element signature="e#2322#2653#0" />
+                <element signature="e#2686#2904#0" />
+                <element signature="e#3064#3629#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -80,6 +100,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/lib/src/student_dashboard/service/student_service.dart" />
       </list>
     </option>
   </component>
@@ -102,6 +123,32 @@
               <item name="AngularDart-Course" type="b2602c69:ProjectViewProjectNode" />
               <item name="AngularDart-Course" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="AngularDart-Course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AngularDart-Course" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AngularDart-Course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AngularDart-Course" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AngularDart-Course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AngularDart-Course" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="student_dashboard" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AngularDart-Course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AngularDart-Course" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="student_dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -112,6 +159,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="dart.analysis.tool.window.force.activate" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -194,6 +242,7 @@
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24982603" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Log Viewer" />
+      <window_info anchor="bottom" id="Dart Analysis" weight="0.3294964" />
       <window_info anchor="bottom" id="Terminal" weight="0.3294964" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Anonymous Apex" />
@@ -266,6 +315,39 @@
             <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/app_component.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/student_dashboard/model/student.dart">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/student_dashboard/model/Announcement.dart">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/app_component.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/student_dashboard/service/student_service.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="127" lean-forward="true" selection-start-line="127" selection-end-line="127" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+            <element signature="e#532#546#0" />
+            <element signature="e#1531#2266#0" />
+            <element signature="e#2322#2653#0" />
+            <element signature="e#2686#2904#0" />
+            <element signature="e#3064#3629#0" />
+          </folding>
         </state>
       </provider>
     </entry>
