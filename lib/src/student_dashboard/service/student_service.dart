@@ -75,7 +75,6 @@ class StudentService {
        print(e);
     }
   }
-
   Future<void> updateStudent(Student selectedStudent) async {
     final newUrl = 'https://angulardartstudent.firebaseio.com/student/${selectedStudent.id}.json';
     try {
